@@ -3,7 +3,7 @@
   
    
   ## License
-    * [badge](https://img.shields.io/github/license/jeremyainsworth0791/Readme-Generator)
+   
      ## Copyright <2021> <jeremyainsworth0791>
 
   Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -25,7 +25,7 @@
   ## Description
   This application will take user input using node inquirer to generate a standardized Readme for any Github Project
    https://github.com/jeremyainsworth0791/ReadmeGenerator
-  [Demo here!](https://something.heroku.com) 
+  [Demo here!] https://youtu.be/RMViUtwSs40
 
   
   ## Installation
