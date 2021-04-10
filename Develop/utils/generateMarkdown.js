@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge() {
   // if there's a license then render badge --> at top under title
-  return `* [badge](https://img.shields.io/apm/l/vim-mode)`;
+  return `* [](https://img.shields.io/apm/l/vim-mode)`;
   
 }
 
@@ -28,9 +28,10 @@ function renderLicenseSection(data) {
   // if there's a license, render entire section
     if(data.license != null){
      return ` 
-    ## License
-     ${renderLicenseBadge()}
-     ${renderLicenseLink(data)}
+  ## License
+
+  ${renderLicenseBadge()}
+  ${renderLicenseLink(data)}
      
      
      `;
@@ -44,7 +45,6 @@ function renderLicenseSection(data) {
 function generateMarkdown(data) {
   return `# ${data.projname}
 
-  
   ${renderLicenseSection(data)}
 
   ## Table of Contents
